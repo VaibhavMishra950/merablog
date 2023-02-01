@@ -1,0 +1,17 @@
+.container {
+    margin: 45px auto;
+    max-width: 45vw;
+    font-family: Poppins;
+}
+
+.center {
+    font-family: Poppins;
+    text-align: center;
+}
+.container ul{
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.container h2{
+    margin-top: 8px;
+}
