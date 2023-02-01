@@ -1,8 +1,13 @@
 import React from 'react';
 import styles from '@/styles/About.module.css'
+import Head from 'next/head';
 
 const About = () => {
-    return <div className={styles.container}>
+    return <>
+    <Head>
+        <title>About Us | Mera Blog</title>
+      </Head>
+    <div className={styles.container}>
         <h1 className={styles.center}>About Mera Blog</h1>
         <h2>Introduction</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quidem? Minus, quas! Earum maxime dignissimos rem quisquam omnis voluptatem ab quis. Tempora iure iste asperiores dolores quia eligendi! Doloremque repellat repellendus deleniti est. Blanditiis officiis et explicabo dicta. Quod, blanditiis at similique enim deserunt labore nisi doloribus tempore nihil quam omnis magni ducimus natus sit vel, id reprehenderit nam non quo consectetur ipsa molestias nobis. </p>
@@ -21,7 +26,8 @@ const About = () => {
         </ul>
         <h2>Contact us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos et animi harum assumenda necessitatibus explicabo nam, corporis deleniti, ab ad praesentium blanditiis iste saepe perferendis impedit architecto quia cupiditate? Accusantium est in inventore repellendus unde. Dolores labore deserunt corrupti fugiat ratione perspiciatis illo optio suscipit aliquid cumque nihil soluta earum, assumenda eligendi nulla sed molestias unde?</p>
-    </div>;
+    </div>
+    </>;
 };
 
 export default About;

@@ -1,6 +1,6 @@
 .container {
     margin: 45px auto;
-    max-width: 45vw;
+    padding: 0 16rem;
     font-family: Poppins;
 }
 
@@ -10,8 +10,22 @@
 }
 .container ul{
     box-sizing: border-box;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .container h2{
     margin-top: 8px;
+}
+.container p{
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        padding: 0 8rem;
+    }
+}
+@media (max-width: 700px) {
+    .container{
+        padding: 0 2rem;
+    }
 }
