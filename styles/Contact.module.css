@@ -2,6 +2,7 @@
     padding: 0 16rem;
     margin: auto;
     font-family: Poppins;
+    min-height: 74vh;
 }
 .container h1{
     font-size: 36px;

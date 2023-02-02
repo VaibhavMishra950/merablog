@@ -27,13 +27,16 @@ const Blog = (props) => {
           font-size: 25px;
           margin-top: 10px;
         }
+        .container{
+          min-height: 74vh;
+        }
         `}
       </style>
 
       <Head>
         <title>Blogs | Mera Blog</title>
       </Head>
-
+      <div className="container">
       <div className={styles.grid}>
 
         {blogs.map((blogitem) => {
@@ -43,6 +46,7 @@ const Blog = (props) => {
           </div>
         })}
 
+      </div>
       </div>
     </>
   )
